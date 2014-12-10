@@ -1,0 +1,11 @@
+language: node_js
+node_js:
+  - "0.10"
+deploy:
+  provider: heroku
+  api_key:
+    secure: L+mib1KcqATWTRnZPpmSStvPuG6Dh72cJ6Xi8RbHNJsiRHQJdhyG+lkp1Ace8NjDknQLs2IZbi1Kh7fYwvq5d2FnrzMrIlfRYvub4OQ9pVMiIO30ohxtzDnO0esyKx0kR1GakyTrwpyCTWPdhKhBytA5wcGUVvatSSHdnp7q5bQ=
+  app: 
+    master: saibot2
+  on:
+    repo: highwide/saibot2
