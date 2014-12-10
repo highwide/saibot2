@@ -1,1 +1,1 @@
-web: bin/hubot -a kandan -n Hubot
+web: bin/hubot -a kandan
